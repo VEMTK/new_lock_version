@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">Zum Freischalten schieben</string>
+
+    <string name="click_2_close">Ausschalten</string>
+    <string name="click_2_open">Einschalten</string>
+
+    <string name="flash_light_title">Taschenlampe</string>
+
+    <string name="query_city">Stadt wird gesucht...</string>
+    <string name="query_city_empty">Keine passende Stadt gefunden.</string>
+    <string name="query_hint">Tippen und Ihren Standort wählen</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">GPS</string>
+    <string name="tool_mobile_data_switch">DATEN</string>
+    <string name="tool_ring_switch">KLINGELTON</string>
+    <string name="tool_screen_off_time_switch">Schlaf</string>
+    <string name="tool_setting_switch">SYSTEMEINSTELLUNGEN</string>
+    <string name="tool_vibrate_switch">VIBRIEREN</string>
+    <string name="tool_wifi_ap_switch">HOTSPOT</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Temperatureinheit</string>
+
+    <string name="battery_time_finish">Abgeschlossen</string>
+    <string name="battery_time_running">Aufladen</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+    <string name="click_2_clean">Jetzt bereinigen</string>
+
+
+    <string name="weather_setting">Wettereinstellungen</string>
+    <string name="add_new_location">Neuen Standort hinzufügen</string>
+    <string name="weather_current_city">Standort</string>
+
+</resources>

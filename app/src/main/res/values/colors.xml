@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="battery_background">#141c2a</color>
+    <color name="unlock_ground">#332e3c52</color>
+
+    <color name="light">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_gry">#a0a0a1</color>
+    <color name="black">#000000</color>
+    <color name="click_stlye">#00000000</color>
+    <color name="click_stlye_press">#55000000</color>
+    <color name="h_transparent">#55000000</color>
+    <color name="sett_weather_layout">#e9e4e4</color>
+
+    <color name="hint_color">#5754d1</color>
+
+    <color name="notification_background">#FF1b1616</color>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyLock</string>
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">تمرير لفتح القفل</string>
+    <string name="click_2_close">إيقاف</string>
+    <string name="click_2_open">تشغيل</string>
+    <string name="flash_light_title">ضوء الفلاش</string>
+    <string name="query_city">جار البحث عن المدينة ...</string>
+    <string name="query_city_empty">لا توجد مدينة مطابقة.</string>
+    <string name="query_hint">اكتب وحدد موقعك</string>
+    <string name="tool_bluetooth_switch">بلوتوث</string>
+    <string name="tool_gps_switch">التموقع</string>
+    <string name="tool_mobile_data_switch">البيانات</string>
+    <string name="tool_ring_switch">نغمة رنين</string>
+    <string name="tool_screen_off_time_switch">وضع السكون</string>
+    <string name="tool_setting_switch">إعدادات النظام</string>
+    <string name="tool_vibrate_switch">ارتجاج</string>
+    <string name="tool_wifi_ap_switch">بؤرة</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+    <string name="weather_temperature_unit">وحدة درجة الحرارة</string>
+    <string name="battery_time_finish">مكتمل</string>
+    <string name="battery_time_running">جارٍ الشحن</string>
+
+    <string name="click_2_clean">تنظيف الآن</string>
+
+    <string name="boost_memory_footprint_high">%d%% RAM Used</string>
+
+    <string name="weather_setting">إعدادات الطقس</string>
+    <string name="add_new_location">أضف موقعًا</string>
+    <string name="weather_current_city">الموقع</string>
+
+</resources>

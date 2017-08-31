@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">अनलॉक करने के लिए स्लाइड करें</string>
+
+    <string name="click_2_close">स्विच बंद</string>
+    <string name="click_2_open">स्विच चालू</string>
+
+    <string name="flash_light_title">फ्लैशलाइट</string>
+
+    <string name="query_city">शहर खोज रहा है...</string>
+    <string name="query_city_empty">मेल खाता कोई शहर नहीं मिला।</string>
+    <string name="query_hint">अपना स्थान टाइप करके सेलेक्ट करें</string>
+
+    <string name="tool_bluetooth_switch">ब्लूटूथ</string>
+    <string name="tool_gps_switch">लोकेशन</string>
+    <string name="tool_mobile_data_switch">डाटा</string>
+    <string name="tool_ring_switch">रिंगटोन</string>
+    <string name="tool_screen_off_time_switch">स्लीप</string>
+    <string name="tool_setting_switch">सिस्टम सेटिंग्स</string>
+    <string name="tool_vibrate_switch">वाइब्रेट</string>
+    <string name="tool_wifi_ap_switch">हॉटस्पॉट</string>
+    <string name="tool_wifi_switch">वाई-फाई</string>
+
+    <string name="weather_temperature_unit">तापमान की इकाई</string>
+
+    <string name="battery_time_finish">पूर्ण</string>
+    <string name="battery_time_running">चार्जिंग</string>
+
+
+    <string name="click_2_clean">अभी साफ कर</string>
+
+    <string name="boost_memory_footprint_high">व्यस्त %d%%</string>
+
+
+    <string name="weather_setting">मौसम की सेटिंग्स</string>
+    <string name="add_new_location">नया स्थान जोड़ें</string>
+    <string name="weather_current_city">स्थान</string>
+
+</resources>

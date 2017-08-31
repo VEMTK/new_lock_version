@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+    <string name="charge_screen_slide_to_unlock">Deslizar para desbloquear</string>
+
+    <string name="click_2_close">Apagar</string>
+    <string name="click_2_open">Encender</string>
+
+    <string name="flash_light_title">Linterna</string>
+    <string name="query_city">Buscando ciudad...</string>
+    <string name="query_city_empty">Ninguna ciudad coincide.</string>
+    <string name="query_hint">Escribe y elige tu ubicación</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">UBICACIÓN</string>
+    <string name="tool_mobile_data_switch">DATOS</string>
+    <string name="tool_ring_switch">TONO DE LLAMADA</string>
+    <string name="tool_screen_off_time_switch">Dormir</string>
+    <string name="tool_setting_switch">AJUSTES DEL SISTEMA</string>
+    <string name="tool_vibrate_switch">VIBRACIÓN</string>
+    <string name="tool_wifi_ap_switch">LUGAR DE INTERÉS</string>
+    <string name="tool_wifi_switch">WIFI</string>
+
+    <string name="weather_temperature_unit">Unidad de temperatura</string>
+
+    <string name="battery_time_finish">Completo</string>
+    <string name="battery_time_running">Cargando</string>
+
+    <string name="click_2_clean">Borrar ahora</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+
+    <string name="weather_setting">Ajustes del tiempo</string>
+    <string name="add_new_location">Añadir nueva ubicación</string>
+    <string name="weather_current_city">Ubicación</string>
+</resources>

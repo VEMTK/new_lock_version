@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/sett_weather_layout"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:background="@color/hint_color"
+        >
+        <RelativeLayout
+            android:id="@+id/search_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/x_btn_click_style"
+            android:onClick="locationOnClick"
+            >
+
+            <ImageView
+                android:id="@+id/set_location_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/x_ic_back"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="marquee"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="@string/weather_setting"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+
+    </LinearLayout>
+
+    <!--temp_layout and location_layout-->
+
+    <LinearLayout
+        android:id="@+id/search_location_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_temperature_unit"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/temp_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="locationOnClick"
+                android:padding="10dp"
+                android:text="℃"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="/"
+                android:textColor="@color/white_gry"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/temp_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="locationOnClick"
+                android:padding="10dp"
+                android:text="℉"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+
+        <!--location-->
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather_current_city"
+                android:textColor="@color/white_gry"/>
+
+            <LinearLayout
+                android:id="@+id/location_layout_click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:onClick="locationOnClick"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/show_location_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_new_location"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/location_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/x_loaction_go"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--search_layout-->
+
+    <LinearLayout
+        android:id="@+id/search_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/laySearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:id="@+id/search_list_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/x_btn_click_style"
+                android:gravity="center"
+                android:onClick="locationOnClick"
+                >
+                <ImageView
+                    android:id="@+id/location_search_back"
+                    android:layout_width="24.0dp"
+                    android:layout_height="24.0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/x_search_edit_back"/>
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/tvSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:hint="@string/query_hint"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="@color/hint_color"
+                android:textColorHint="@color/white_gry"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="16.0sp"/>
+
+            <RelativeLayout
+                android:id="@+id/search_delete_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/x_btn_click_style"
+                android:onClick="locationOnClick"
+                android:visibility="gone"
+
+                >
+                <ImageView
+                    android:layout_width="16.0dp"
+                    android:layout_height="16.0dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_clean_edit"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/search_download_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/x_btn_click_style"
+                android:gravity="center"
+                android:onClick="locationOnClick"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/x_ic_search"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#55000000"/>
+
+        <TextView
+            android:id="@+id/search_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white_gry"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ListView
+                android:id="@+id/location_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/x_btn_click_style"
+                android:divider="@color/white_gry"
+                android:dividerHeight="0.5dp"
+                android:scrollbars="none">
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

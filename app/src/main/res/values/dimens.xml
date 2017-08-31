@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="flash_light_padding">10dip</dimen>
+
+    <integer name="ad_height">200</integer>
+
+    <dimen name="battery_width">125dip</dimen>
+
+    <dimen name="battery_height">50dip</dimen>
+
+    <integer name="battery_length">110</integer>
+
+
+</resources>

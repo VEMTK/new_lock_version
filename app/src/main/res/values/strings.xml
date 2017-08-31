@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+    <string name="charge_screen_slide_to_unlock">Slide to unlock</string>
+
+    <string name="click_2_close">Switch Off</string>
+    <string name="click_2_open">Switch On</string>
+
+    <string name="flash_light_title">Flashlight</string>
+
+    <string name="query_city">Searching city...</string>
+    <string name="query_city_empty">No city matched.</string>
+    <string name="query_hint">Type and select your location</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">LOCATION</string>
+    <string name="tool_mobile_data_switch">DATA</string>
+    <string name="tool_ring_switch">RINGTONE</string>
+    <string name="tool_screen_off_time_switch">Sleep</string>
+    <string name="tool_setting_switch">System Settings</string>
+    <string name="tool_vibrate_switch">VIBRATE</string>
+    <string name="tool_wifi_ap_switch">HOTSPOT</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Temperature Unit</string>
+
+    <string name="battery_time_finish">Complete</string>
+    <string name="battery_time_running">Charging</string>
+
+    <string name="click_2_clean">Clean now</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+
+    <string name="weather_setting">Weather Settings</string>
+    <string name="add_new_location">Add New Location</string>
+    <string name="weather_current_city">Location</string>
+
+</resources>

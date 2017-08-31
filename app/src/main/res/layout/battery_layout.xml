@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/battery_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_row"
+        android:orientation="horizontal"
+        android:padding="@dimen/flash_light_padding"
+        >
+
+        <FrameLayout
+            android:id="@+id/battery_batter"
+            android:layout_width="@dimen/battery_width"
+            android:layout_height="@dimen/battery_height"
+            android:background="@drawable/battery_big"
+            >
+            <FrameLayout
+                android:id="@+id/layout"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/battery_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/particles_green_big"/>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/battery_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/charging_battery"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/battery_much"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:text="18%"
+                android:textColor="@color/white"
+                android:textSize="@dimen/battery_text_size"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

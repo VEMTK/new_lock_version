@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+    <string name="charge_screen_slide_to_unlock">Geser untuk membuka</string>
+
+    <string name="click_2_close">Matikan</string>
+    <string name="click_2_open">Nyalakan</string>
+
+    <string name="flash_light_title">Lampu Senter</string>
+
+    <string name="query_city">Pencarian Kota...</string>
+    <string name="query_city_empty">Tidak ada kota yang cocok.</string>
+    <string name="query_hint">Ketik dan pilih lokasi Anda</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">LOKASI</string>
+    <string name="tool_mobile_data_switch">DATA</string>
+    <string name="tool_ring_switch">NADA DERING</string>
+    <string name="tool_screen_off_time_switch">Tidur</string>
+    <string name="tool_setting_switch">Pengaturan Sistem</string>
+    <string name="tool_vibrate_switch">GETAR</string>
+    <string name="tool_wifi_ap_switch">HOTSPOT</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Unit Temperatur</string>
+
+    <string name="battery_time_finish">Selesai</string>
+    <string name="battery_time_running">Mengisi</string>
+
+
+    <string name="click_2_clean">Bersihkan sekarang</string>
+
+    <string name="boost_memory_footprint_high">Dipakai %d%%</string>
+
+
+    <string name="weather_setting">Pengaturan Cuaca</string>
+    <string name="add_new_location">Tambah Lokasi Baru</string>
+    <string name="weather_current_city">Lokasi</string>
+
+</resources>

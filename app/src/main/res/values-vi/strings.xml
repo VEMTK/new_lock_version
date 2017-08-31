@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">Trượt để mở khóa</string>
+
+    <string name="click_2_close">Tắt</string>
+    <string name="click_2_open">Bật</string>
+
+    <string name="flash_light_title">Đèn flash</string>
+
+    <string name="query_city">Đang tìm kiếm thành phố...</string>
+    <string name="query_city_empty">Không có thành phố nào khớp.</string>
+    <string name="query_hint">Nhập và chọn vị trí của bạn</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">LOCATION</string>
+    <string name="tool_mobile_data_switch">DATA</string>
+    <string name="tool_ring_switch">NHẠC CHUÔNG</string>
+    <string name="tool_screen_off_time_switch">Ngủ</string>
+    <string name="tool_setting_switch">System Settings</string>
+    <string name="tool_vibrate_switch">VIBRATE</string>
+    <string name="tool_wifi_ap_switch">HOTSPOT</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Đơn vị nhiệt độ</string>
+
+    <string name="battery_time_finish">Hoàn tất</string>
+    <string name="battery_time_running">Đang sạc</string>
+
+    <string name="click_2_clean">Dọn dẹp ngay</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+    <string name="weather_setting">Cài đặt Thời tiết</string>
+    <string name="add_new_location">Thêm Địa điểm Mới</string>
+    <string name="weather_current_city">Vị trí</string>
+</resources>

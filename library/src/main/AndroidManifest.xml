@@ -1,0 +1,157 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xml.library">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensor"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent"/>
+        <activity
+            android:name=".ad.Ad"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="sensor"
+            android:theme="@style/Theme1.Dialog"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <!--<activity-->
+            <!--android:name=".ad.Abactivity"-->
+            <!--android:configChanges="orientation|screenSize"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:noHistory="true"-->
+            <!--android:screenOrientation="sensor"-->
+            <!--android:theme="@style/Theme1.Dialog"-->
+            <!--android:windowSoftInputMode="adjustPan">-->
+        <!--</activity>-->
+
+        <!--<activity-->
+            <!--android:configChanges="orientation|screenSize"-->
+            <!--android:name=".ad.GameAd"-->
+            <!--android:excludeFromRecents="true"-->
+            <!--android:noHistory="true"-->
+            <!--android:screenOrientation="sensor"-->
+            <!--android:theme="@style/Theme1.Dialog"-->
+            <!--android:windowSoftInputMode="adjustPan">-->
+        <!--</activity>-->
+
+        <receiver
+            android:name=".services.E"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <action android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.USER_PRESENT"/>-->
+            <!--</intent-filter>-->
+        </receiver>
+
+        <service android:name=".services.A"/>
+
+        <meta-data
+            android:name="cid"
+            android:value="x1702"/>
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="bc9b6aa2c9"/>
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="x1702"/>
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true"/>
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START"/>
+        <meta-data
+            android:name="BaiduMobAd_TIME_INTERVAL"
+            android:value="2"/>
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false"/>
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true"/>
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true"/>
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true"/>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--悬浮窗口-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <!--查看网络状态权限-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--改变wifi状态权限-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!--位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!--gps-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--屏幕一直唤醒-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <!--允许程序禁用键盘锁-->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <!--程序自起-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <!--监听来电短信权限-->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>

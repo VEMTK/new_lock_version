@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="notification_search_setting_btn_padding_left">12.0dip</dimen>
+	<dimen name="notification_search_setting_btn_padding_right">10.666992dip</dimen>
+	<dimen name="notification_search_setting_btn_size">18.0dip</dimen>
+	<dimen name="notification_search_box_height">45.332977dip</dimen>
+	<dimen name="notification_search_engine_icon_size">32.0dip</dimen>
+	<dimen name="notification_search_margin">6.666992dip</dimen>
+	<dimen name="notification_search_text_margin_left">12.0dip</dimen>
+	<dimen name="notification_search_search_icon_size">45.332977dip</dimen>
+	<dimen name="notification_search_icon_margin">12.0dip</dimen>
+
+	<dimen name="notification_padding_right">13.329987dip</dimen>
+	<dimen name="notification_large_icon_height">64.0dip</dimen>
+	<dimen name="notification_content_padding_left">14.0dip</dimen>
+	<dimen name="notification_content_title_size">17.329987dip</dimen>
+	<dimen name="notification_content_title_size_small">14.669983dip</dimen>
+	<dimen name="notification_content_text_size">13.329987dip</dimen>
+	<dimen name="notification_content_text_margin_top">2.669983dip</dimen>
+	<dimen name="notification_button_margin_left">10.0dip</dimen>
+
+	<dimen name="my_screen_width">300dip</dimen>
+	<dimen name="my_screen_height">200dip</dimen>
+
+</resources>

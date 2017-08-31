@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="flash_light_padding">10dip</dimen>
+
+	<integer name="ad_height">160</integer>
+
+
+	<dimen name="battery_height">50dip</dimen>
+
+
+	<dimen name="battery_text_size">18sp</dimen>
+
+</resources>

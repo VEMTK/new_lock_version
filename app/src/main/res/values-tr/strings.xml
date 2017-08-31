@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">Kilidi açmak için kaydır</string>
+
+    <string name="click_2_close">Kapat</string>
+    <string name="click_2_open">Aç</string>
+
+    <string name="flash_light_title">Fener</string>
+
+    <string name="query_city">Şehir aranıyor...</string>
+    <string name="query_city_empty">Hiçbir şehir eşleşmedi.</string>
+    <string name="query_hint">Konumunu gir ve seç</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">KONUM</string>
+    <string name="tool_mobile_data_switch">VERİ</string>
+    <string name="tool_ring_switch">ZİL SESİ</string>
+    <string name="tool_screen_off_time_switch">Uyku</string>
+    <string name="tool_setting_switch">SISTEM AYARLARI</string>
+    <string name="tool_vibrate_switch">TİTREŞİM</string>
+    <string name="tool_wifi_ap_switch">HOTSPOT</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Sıcaklık Birimi</string>
+
+    <string name="battery_time_finish">Tamam</string>
+    <string name="battery_time_running">Şarj oluyor</string>
+
+    <string name="click_2_clean">Şimdi temizle</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+
+
+    <string name="weather_setting">Hava Durumu Ayarları</string>
+    <string name="add_new_location">Yeni Konum Ekle</string>
+    <string name="weather_current_city">Konum</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EasyLock</string>
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+    <string name="charge_screen_slide_to_unlock">滑动解锁</string>
+    <string name="flash_light_title">手电筒</string>
+    <string name="click_2_close">点击关闭</string>
+    <string name="click_2_open">点击打开</string>
+    <string name="tool_bluetooth_switch">蓝牙</string>
+    <string name="tool_gps_switch">GPS</string>
+    <string name="tool_mobile_data_switch">数据</string>
+    <string name="tool_ring_switch">铃声</string>
+    <string name="tool_screen_off_time_switch">自动休眠</string>
+    <string name="tool_setting_switch">系統設置</string>
+    <string name="tool_vibrate_switch">震动</string>
+    <string name="tool_wifi_ap_switch">便携热点</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+    <string name="battery_time_finish">充电完毕</string>
+    <string name="battery_time_running">充电中</string>
+    <string name="query_city">正在搜索城市...</string>
+    <string name="query_city_empty">没有符合条件的城市</string>
+    <string name="query_hint">请输入城市...</string>
+    <string name="weather_temperature_unit">温度单位</string>
+
+    <string name="click_2_clean">点击清理</string>
+    <string name="boost_memory_footprint_high">内存已使用 %d%%</string>
+
+
+    <string name="weather_setting">天气设置</string>
+    <string name="add_new_location">添加新位置</string>
+    <string name="weather_current_city">位置</string>
+
+
+</resources>

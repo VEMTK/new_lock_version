@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+    <string name="charge_screen_slide_to_unlock">разблокируйте</string>
+
+    <string name="click_2_close">Выключить</string>
+    <string name="click_2_open">Включить</string>
+
+    <string name="flash_light_title">Фонарик</string>
+
+    <string name="query_city">Поиск города...</string>
+    <string name="query_city_empty">Нет подходящего города.</string>
+    <string name="query_hint">Введите или выберите свое местоположение</string>
+
+    <string name="tool_bluetooth_switch">BLUETOOTH</string>
+    <string name="tool_gps_switch">РАСПОЛОЖЕНИЕ</string>
+    <string name="tool_mobile_data_switch">ДАННЫЕ</string>
+    <string name="tool_ring_switch">РИНГТОН</string>
+    <string name="tool_screen_off_time_switch">спать</string>
+    <string name="tool_setting_switch">Системные настр.</string>
+    <string name="tool_vibrate_switch">ВИБРАЦИЯ</string>
+    <string name="tool_wifi_ap_switch">ТОЧКА ДОСТУПА</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">Единица температуры</string>
+
+    <string name="battery_time_finish">Зарядка окончена</string>
+    <string name="battery_time_running">Зарядка</string>
+
+    <string name="click_2_clean">Очистить</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+
+
+
+    <string name="weather_setting">Настройки погоды</string>
+    <string name="add_new_location">Добавить новое место</string>
+    <string name="weather_current_city">Местоположение</string>
+
+</resources>

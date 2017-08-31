@@ -1,0 +1,205 @@
+<com.weather.lock.view.PagerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:id="@+id/main_layout"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:gravity="center_horizontal"
+                                   android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="60dp"/>
+
+            <TextView
+                android:id="@+id/current_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/weather_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/weather_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_default_big"
+                />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textDirection="ltr"
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N/A℃"
+                android:textColor="#ffffff"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/tool_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/x_btn_click_style"
+            android:onClick="onClick">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/locker_shortcut"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_lock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <com.weather.lock.view.FlickerTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/charge_screen_slide_to_unlock"
+                android:textColor="#99ffffff"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/unlock_icon"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/camera"
+            android:layout_width="60.0dp"
+            android:layout_height="60.0dp"
+            android:background="@drawable/x_btn_click_style">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/locker_camera"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_view"
+        android:layout_below="@id/top_view"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:overScrollMode="always"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/show_ad_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <include
+                android:id="@+id/battery_layout_1"
+                layout="@layout/battery_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <include
+                android:id="@+id/battery_layout_2"
+                layout="@layout/flash_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</com.weather.lock.view.PagerLayout>

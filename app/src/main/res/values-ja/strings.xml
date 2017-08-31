@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">スライドしてアンロック</string>
+
+    <string name="click_2_close">スイッチオフ</string>
+    <string name="click_2_open">スイッチオン</string>
+
+    <string name="flash_light_title">フラッシュライト</string>
+
+    <string name="query_city">都市を検索中…</string>
+    <string name="query_city_empty">該当する都市がありません。</string>
+    <string name="query_hint">位置を入力して選択</string>
+
+    <string name="tool_bluetooth_switch">ブルートゥース</string>
+    <string name="tool_gps_switch">ロケーション</string>
+    <string name="tool_mobile_data_switch">データ</string>
+    <string name="tool_ring_switch">着信音</string>
+    <string name="tool_screen_off_time_switch">おやすみモード</string>
+    <string name="tool_setting_switch">システム設定</string>
+    <string name="tool_vibrate_switch">バイブ</string>
+    <string name="tool_wifi_ap_switch">ホットスポット</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">気温の単位</string>
+
+    <string name="battery_time_finish">完了</string>
+    <string name="battery_time_running">充电中</string>
+
+    <string name="click_2_clean">今すぐクリーンアップ</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+    <string name="weather_setting">天気の設定</string>
+    <string name="add_new_location">新規の場所を追加する</string>
+    <string name="weather_current_city">位置</string>
+
+
+</resources>

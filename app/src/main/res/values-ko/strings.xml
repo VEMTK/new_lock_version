@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">EasyLock</string>
+
+    <string name="clean_msg">Clearing up the rubbish %s</string>
+    <string name="clean_now">Perfect,try again later</string>
+
+
+    <string name="charge_screen_slide_to_unlock">잠금 해제하려면 미세요</string>
+
+    <string name="click_2_close">끄기</string>
+    <string name="click_2_open">켜기</string>
+
+    <string name="flash_light_title">플래시 조명</string>
+
+    <string name="query_city">도시 검색 중...</string>
+    <string name="query_city_empty">도시가 일치하지 않습니다.</string>
+    <string name="query_hint">위치 입력 및 선택</string>
+
+    <string name="tool_bluetooth_switch">블루투스</string>
+    <string name="tool_gps_switch">GPS</string>
+    <string name="tool_mobile_data_switch">데이터</string>
+    <string name="tool_ring_switch">벨소리</string>
+    <string name="tool_screen_off_time_switch">자다</string>
+    <string name="tool_setting_switch">시스템 설정</string>
+    <string name="tool_vibrate_switch">진동</string>
+    <string name="tool_wifi_ap_switch">Wi-Fi핫스팟</string>
+    <string name="tool_wifi_switch">WI-FI</string>
+
+    <string name="weather_temperature_unit">온도 단위</string>
+
+    <string name="battery_time_finish">완료</string>
+    <string name="battery_time_running">계산</string>
+
+    <string name="click_2_clean">지금 지우기</string>
+
+    <string name="boost_memory_footprint_high">RAM Used %d%%</string>
+
+
+
+
+    <string name="weather_setting">날씨 설정</string>
+    <string name="add_new_location">새 위치 추가</string>
+    <string name="weather_current_city">위치</string>
+</resources>
